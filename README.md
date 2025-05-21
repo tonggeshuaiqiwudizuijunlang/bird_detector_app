@@ -93,4 +93,4 @@ bird_detector_app/
 
 ## 许可证
 
-© 2025 版权所有 Tz2H
+本项目采用 Apache License 2.0 进行开源，鼓励其他开发人员参与其进一步的开发。
