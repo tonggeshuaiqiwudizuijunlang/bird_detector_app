@@ -1,2 +1,0 @@
-model=resources/models/yolo11m.pt
-classes=bird,person,animal
