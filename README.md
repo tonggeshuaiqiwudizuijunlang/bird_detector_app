@@ -31,6 +31,7 @@
 
    ```bash
    requirementInstallation.bat
+
    ```
 
 2. 启动程序:
@@ -41,19 +42,17 @@
 
 ## 打包应用程序 (生成 EXE)
 
-项目包含一个 `build_exe.py` 脚本，用于使用 PyInstaller 将应用程序打包为单个可执行文件 (.exe)。
-
 1. **确保 PyInstaller 已安装**: 如果未包含在 `requirements.txt` 中或未安装，请先安装：
 
    ```bash
    pip install pyinstaller
    ```
 
-2. **运行打包脚本**:
+2. **打包**:
    在项目根目录下打开终端或命令行，然后运行：
 
    ```bash
-   python build_exe.py
+   pyinstaller BirdDetectorApp.spec
    ```
 
    脚本会自动处理依赖、包含必要的资源文件，并在 `dist` 文件夹下生成 `BirdDetectorApp.exe`。
@@ -93,4 +92,4 @@ bird_detector_app/
 
 ## 许可证
 
-本项目采用 Apache License 2.0 进行开源，鼓励其他开发人员参与其进一步的开发。
+© 2025 版权所有 Tz2H
